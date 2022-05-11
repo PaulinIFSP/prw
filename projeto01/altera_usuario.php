@@ -11,11 +11,11 @@
 <html lang="pt-br">
     <head>
         <title>Alteração de Usuário - IFSP</title>
-        <meta charset="utf-8">
+        <meta charset="UTF-8">
     </head>
     <body>
         <h1>Alteração do Usuário</h1>
-        <form method="get" action="cadastro_usuario.php">
+        <form method="get" action="altera_usuario.php">
             <label for="Nome">Nome: </label>
             <input type="text"  name="Nome" value="<?php echo $row['nome_usuario']?>"><br>
             <label for="E-mail">E-mail: </label>
